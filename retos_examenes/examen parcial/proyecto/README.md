@@ -194,9 +194,37 @@ Ajustar en el archivo:
 ```python
 imagen_prueba = "../imagenes/prueba1.jpg"
 ```
+#### Crear entorno virtual
+```bash
+python -m venv .venv
+```
+Windows
+```
+.venv\Scripts\activate
+```
+Linux
+```
+source .venv/bin/activate
+```
+
+#### Instalar dependencias
+
+```bash
+pip install -r requirements.txt
+```
+
+#### 📝 ¿Por qué es importante activarlo?
+
+- ✔ Garantiza que se usen exactamente las versiones indicadas en requirements.txt
+- ✔ Evita conflictos con librerías globales
+- ✔ Evita errores tipo: "ModuleNotFoundError: No module named cv2"
+- ✔ Es estándar profesional incluirlo
 
 #### 🎥 Reconocimiento con cámara
-* python detector_realtime.py
+Ejecutar en consola
+```bash
+python detector_realtime.py
+```
 
 
 Presiona Q para salir.
