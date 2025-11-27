@@ -1,0 +1,38 @@
+# --- Python bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Entornos virtuales ---
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# --- Archivos de configuración locales ---
+*.env
+*.log
+
+# --- Sistemas operativos ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs y editores ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Archivos de backup ---
+*~
+*.swp
+*.swo
+
+# --- Imágenes / capturas temporales ---
+/imagenes_pruebas/
+/capturas/
+/output/
+
+# --- Datos grandes opcionales ---
+/videos/
+/datasets/
